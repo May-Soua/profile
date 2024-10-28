@@ -1,0 +1,137 @@
+body {
+  font-family: Space Mono;
+  /*background-color: #FEF9F2;*/
+  /*background: url(https://cdn.dribbble.com/userupload/3258610/file/original-397eb9f8cee1cdc08908dbbff6c20111.mp4" type="video/mp4);
+  background-size: auto;*/
+  color: #536493;
+  padding: 0px;
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+  font-family : Space Grotesk;
+  color: #4c336d;
+  margin: 5px;
+}
+
+li {
+  display: inline
+}
+
+ul{
+  padding: 0
+}
+
+#my-works {
+  text-decoration : none;
+  color: white;
+  background-color: #EF5A6F;
+  margin: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#my-works:hover {
+  background-color: #615393;
+}
+
+#circle-pic {
+  border-radius : 50%;
+  width : 200px;
+}
+
+.card {
+  background-color: #FFF1DB;
+  padding: 25px;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px solid #D4BDAC;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card {
+    background-color: #FFF1DB;
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #D4BDAC;
+  }
+
+
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    background-color: #FFF1DB;
+    padding: 20px;
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #D4BDAC;
+  }
+
+  #my-works {
+    text-decoration : none;
+    color: white;
+    background-color: #EF5A6F;
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+
+  #circle-pic {
+    border-radius : 50%;
+    width : 150px;
+  }
+
+  h1{
+    font-size : 24px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    background-color: #FFF1DB;
+    padding: 15px;
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #D4BDAC;
+  }
+}
